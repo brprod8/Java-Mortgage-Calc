@@ -32,7 +32,7 @@ public class MortgageCalculator {
 
 
         while(true) {
-            System.out.print("Annual Interest Rare:");
+            System.out.print("Annual Interest Rate:");
             float annualInterest = scanner.nextFloat();
             if (annualInterest >= 1 && annualInterest <=30) {
                 monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
